@@ -1,6 +1,6 @@
 import "./Education.css";
 import { useState } from "react";
-
+import Job from "./Job";
 function Education() {
   const [view, setView] = useState("first");
 
@@ -55,12 +55,7 @@ function Education() {
             </button>
           </div>
         </div>
-        <div className="box">
-          <div>
-          <h3 className="title">Experiencia</h3>
-          </div>
-          
-        </div>
+        <Job></Job>
       </div>
     </>
   );

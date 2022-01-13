@@ -2,8 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import About from "./About";
 import Education from "./Education";
-
-
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -18,16 +17,22 @@ function App() {
           <p className="text-box">Full Stack Junior Development</p>
         </div>
       </header>
- 
-        <About></About>
 
-        <Education></Education>
+      <About></About>
 
+      <Education></Education>
 
+      <Skills></Skills>
 
-
-      <footer>
-        <p>contact</p>
+      <footer className="footer">
+        <div className="contact">
+          <p>66 106 47 96</p>
+          <p>noelia.saura.m@gmail.com</p>
+          <p>nsaura.herokuapp.com</p>
+        </div>
+        <div>
+          
+        </div>
       </footer>
     </div>
   );
