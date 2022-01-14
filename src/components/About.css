@@ -57,3 +57,69 @@ li {
   width: 700px;
   margin-top: 100px;
 }
+
+
+
+
+@media (max-width: 480px) {
+  .about {
+    background-color: #606398;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .about-title {
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+  }
+  
+  .about-data {
+    font-size: 28px;
+    font-family: monospace;
+  }
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .about-doc {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li::before {
+    display: inline-block;
+    content: "🟣";
+    margin-right: 0.5rem;
+  }
+  li {
+    text-indent: -0.75em;
+    margin-bottom: 20px;
+  }
+  
+  .img-programming {
+    width: 320px;
+    margin-top: 10px;
+  }
+}

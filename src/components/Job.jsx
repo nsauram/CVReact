@@ -11,7 +11,7 @@ function Job() {
         <div>
           {view === "first" && (
             <div className="first">
-              <h4 className="title">HELP DESK</h4>
+              <h4 className="subtitle">HELP DESK</h4>
               <p className="education-subtitle">
                 Col·legi de farmacèutics | 2021- actualmente.
               </p>
@@ -28,7 +28,7 @@ function Job() {
           )}
           {view === "second" && (
             <div className="second">
-              <h4 className="title">ASESOR/HELP DESK TECNOLOGICO</h4>
+              <h4 className="subtitle">ASESOR/HELP DESK TECNOLOGICO</h4>
               <p className="education-subtitle">
                 SAMSUNG- El Corte Ingles | 2017 - 2020
               </p>
