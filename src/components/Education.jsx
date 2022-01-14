@@ -46,7 +46,7 @@ function Education() {
               </div>
             )}
           </div>
-          <div className="button" >
+          <div className="buttons" >
             <button onClick={() => setView("first")}>
               Back
             </button>

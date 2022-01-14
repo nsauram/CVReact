@@ -41,7 +41,7 @@ function Job() {
             </div>
           )}
         </div>
-        <div className="button">
+        <div className="buttons">
           <button onClick={() => setView("first")}>Back</button>
           <button onClick={() => setView("second")}>Next</button>
         </div>
