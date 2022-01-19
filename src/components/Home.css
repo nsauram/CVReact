@@ -1,0 +1,83 @@
+.App-home {
+  background-color: #393e47;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 20px;
+  height: 90vh;
+}
+
+.wrapper {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 33ch;
+  animation: typing 4s steps(33), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.home-box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3dcfb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 1000px;
+  height: 415px;
+}
+
+@media (max-width: 415px) {
+  .home-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.display-box-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  font-family: monospace;
+  align-items: center;
+}
+.text-box {
+  font-size: 35px;
+  width: 32rem;
+}
+.text-dedication {
+  font-size: 25px;
+}
+
+.MyImage {
+  width: 300px;
+
+}

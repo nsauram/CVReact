@@ -42,7 +42,7 @@
   margin-bottom: 20px;
 }
 
-button{
+.BackNext{
   height: 65px;
   background-color: #e3adeb;
   width: 100px;
@@ -52,7 +52,7 @@ button{
   box-shadow: -5px 5px 10px 0px #6a54b2
 
 }
-button:hover{
+.BackNext:hover{
   background-color: #d496dd;
   box-shadow: 0px 0px 5px 0px #6a54b2;
 }

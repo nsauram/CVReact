@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./Education.css";
 function Job() {
   const [view, setView] = useState("first");
   return (
@@ -42,8 +42,8 @@ function Job() {
           )}
         </div>
         <div className="buttons">
-          <button onClick={() => setView("first")}>Back</button>
-          <button onClick={() => setView("second")}>Next</button>
+          <button className='BackNext' onClick={() => setView("first")}>Back</button>
+          <button className='BackNext' onClick={() => setView("second")}>Next</button>
         </div>
       </div>
     </>

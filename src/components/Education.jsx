@@ -1,6 +1,8 @@
 import "./Education.css";
 import { useState } from "react";
 import Job from "./Job";
+import Skills from "./Skills";
+
 function Education() {
   const [view, setView] = useState("first");
 
@@ -47,15 +49,18 @@ function Education() {
             )}
           </div>
           <div className="buttons" >
-            <button onClick={() => setView("first")}>
+            <button className='BackNext' onClick={() => setView("first")}>
               Back
             </button>
-            <button onClick={() => setView("second")}>
+            <button className='BackNext'onClick={() => setView("second")}>
               Next
             </button>
           </div>
         </div>
         <Job></Job>
+      </div>
+      <div>
+        <Skills></Skills>
       </div>
     </>
   );

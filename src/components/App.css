@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
 }
@@ -16,81 +15,36 @@
 
 .App-header {
   background-color: #393e47;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.title-header{
+  margin-left: 70px;
+  font-family: system-ui;
   color: white;
 }
-
-
-.wrapper {
-  height: 20vh;
-  /*This part is important for centering*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.select{
+  background: transparent;
+    border: transparent;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-top: 20px;
+    margin-right: 35px;
+    line-height: 30pt;
 }
-
-.typing-demo {
-  width: 33ch;
-  animation: typing 4s steps(33), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
+.select:hover{
+  text-shadow: 0 0 black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ffd263;
+  color: #ffd263;
+  line-height: 30pt;
 }
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
-
-.header-box {
-display: flex;
-flex-direction: row;
-text-align: center;
-align-items: center;
-justify-content: center;
-background-color: #e3dcfb;
-border-radius: 10px;
-padding: 10px;
-
-}
-
-@media (max-width: 415px){
-  .header-box {
-  display:flex;
-  flex-direction:column;
-  }
-}
-
-.text-box{
-  margin-left: 20px;
-  margin-right: 20px;
-  color: black;
-  font-family: monospace;
-  font-size: 50px;
-  font-weight: 100;
-  width: 32rem;
-}
-
-.MyImage {
-  width: 500px;
-}
-
-.footer{
+.footer {
   background-color: #393e47;
   color: white;
   font-family: monospace;
@@ -99,32 +53,28 @@ padding: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
-  
 }
-.contact{
+.contact {
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
-
-
-@media (max-width: 480px){
-
+@media (max-width: 480px) {
   .App {
     text-align: center;
   }
-  
+
   .App-logo {
     height: 40vmin;
     pointer-events: none;
   }
-  
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
     }
   }
-  
+
   .App-header {
     background-color: #393e47;
     min-height: 100vh;
@@ -135,8 +85,7 @@ justify-content: space-around;
     font-size: calc(10px + 2vmin);
     color: white;
   }
-  
-  
+
   .wrapper {
     height: 20vh;
     /*This part is important for centering*/
@@ -144,51 +93,49 @@ justify-content: space-around;
     align-items: center;
     justify-content: center;
   }
-  
+
   .typing-demo {
     width: 33ch;
-    animation: typing 4s steps(33), blink .5s step-end infinite alternate;
+    animation: typing 4s steps(33), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 1em;
   }
-  
+
   @keyframes typing {
     from {
-      width: 0
+      width: 0;
     }
   }
-      
+
   @keyframes blink {
     50% {
-      border-color: transparent
+      border-color: transparent;
     }
   }
-  
-  
+
   .header-box {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #e3dcfb;
-  border-radius: 10px;
-  padding: 10px;
-  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3dcfb;
+    border-radius: 10px;
+    padding: 10px;
   }
-  
-  @media (max-width: 415px){
+
+  @media (max-width: 415px) {
     .header-box {
-    display:flex;
-    flex-direction:column;
-    margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
     }
   }
-  
-  .text-box{
+
+  .text-box {
     margin-left: 20px;
     margin-right: 20px;
     color: black;
@@ -196,14 +143,13 @@ justify-content: space-around;
     font-size: 38px;
     font-weight: 100;
     width: 18rem;
-    
   }
-  
+
   .MyImage {
     width: 300px;
   }
-  
-  .footer{
+
+  .footer {
     background-color: #393e47;
     color: white;
     font-family: monospace;
@@ -212,13 +158,11 @@ justify-content: space-around;
     left: 0;
     bottom: 0;
     width: 100%;
-    
   }
-  .contact{
+  .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-
 }
